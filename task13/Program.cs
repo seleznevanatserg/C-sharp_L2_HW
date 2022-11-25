@@ -4,7 +4,6 @@
 Console.WriteLine("Enter your number, please.");
 bool isParsed = int.TryParse(Console.ReadLine(), out int number);
 
-
 if (isParsed == true)
 {
     if (number >= 100 | number <= -100)
